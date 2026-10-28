@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Delia Manukau">
+    <meta name="keywords" content="surfboards, skateboards, bicycles, custom boards, custom bikes, SSC">
+    <title>Products | Surf, Skate and Cycle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f7fa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #004C73;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 220px;
+            height: auto;
+            box-sizing: border-box;
+            padding: 8px;
+            background-color: white;
+        }
+
+        nav {
+            background-color: OrangeRed;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            font-weight: bold;
+            margin: 0 18px;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #004C73;
+        }
+
+        .product {
+            display: flex;
+            align-items: flex-start;
+            gap: 24px;
+            margin: 28px 0;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .product img {
+            width: 280px;
+            max-width: 40%;
+            height: auto;
+        }
+
+        .product-text {
+            flex: 1;
+        }
+
+        .contact-message {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #004c73;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        @media (max-width: 650px) {
+            .product {
+                display: block;
+            }
+
+            .product img {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Images/logo.png" alt="Surf, Skate and Cycle logo">
+        <p>Surf, Skate and Cycle — unique gear made for you</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h1>The hottest unique gear – for YOU!</h1>
+
+        <section class="product">
+            <img src="Images/surf.jpg" alt="Surfboard available from Surf, Skate and Cycle">
+            <div class="product-text">
+                <h2>Surf in style</h2>
+                <ul>
+                    <li>Stand tall above the crowd on your custom-made board.</li>
+                    <li>Check out our huge range. We have something for everyone.</li>
+                    <li>Every shape, colour, and size you can imagine.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="product">
+            <img src="Images/skate.jpg" alt="Skateboard available from Surf, Skate and Cycle">
+            <div class="product-text">
+                <h2>Create and skate!</h2>
+                <ul>
+                    <li>Don’t just skate … create!</li>
+                    <li>We give you the chance to help create your own custom board.</li>
+                    <li>You give us the concept and we’ll make you the board.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="product">
+            <img src="Images/cycle.jpg" alt="Bicycle available from Surf, Skate and Cycle">
+            <div class="product-text">
+                <h2>Bikes to blow your mind!</h2>
+                <ul>
+                    <li>Not your everyday bike! These bikes are custom-made to suit your style.</li>
+                    <li>We also provide unique biking accessories to make sure you never become just part of the scenery!</li>
+                    <li>Our bikes don’t only look great, they offer supreme comfort and safety.</li>
+                </ul>
+            </div>
+        </section>
+
+        <p class="contact-message">
+            <a href="contact.html">Contact us</a> today for a unique bike or board, custom-made for you.
+        </p>
+
+        <h2>Website sitemap</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Surf, Skate and Cycle</p>
+        <p>Surf image: Karen Arnold, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal Public Domain Dedication</a>. <a href="https://www.publicdomainpictures.net/en/view-image.php?image=311813&amp;picture=surfing-surfboard-retro-background">Original source</a>.</p>
+        <p>Skate image: Pixel.la, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal Public Domain Dedication</a>. <a href="https://www.flickr.com/photos/137643065@N06/24031327000/">Original source</a>.</p>
+        <p>Cycle image: Hendrik Wieduwilt, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0 Generic</a>. <a href="https://www.flickr.com/photos/hendrikwieduwilt/15180641632/">Original source</a>.</p>
+        <p>Hero image compilation: surf, skate and cycle images.</p>
+        <p>Website created by Delia Manukau.</p>
+    </footer>
+</body>
+</html>
